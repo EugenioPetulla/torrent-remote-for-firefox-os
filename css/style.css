@@ -1,0 +1,21 @@
+body {
+	margin:0px;
+}
+article {
+	padding-left:10px;
+	padding-right:10px;
+}
+header {
+	margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+textarea {
+  height: 3.6rem;
+  line-height: 3.6rem;
+}

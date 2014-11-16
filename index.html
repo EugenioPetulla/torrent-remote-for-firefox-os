@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<link rel="stylesheet" href="css/headers.css">
+	<link rel="stylesheet" href="css/input_areas.css"/>
+	<link rel="stylesheet" href="css/buttons.css">
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="js/app.js"></script>
+</head>
+<section role="region">
+<header class="fixed">
+	<h1>Torrent Remote</h1>
+</header>
+	<article>
+		<form>
+			<input name="ipn" id="ipn" type="text" maxlength="15" placeholder="Client IP - eg: 192.168.1.1"></input>
+			<input name="portn" id="portn" type="text" maxlength="5" placeholder="Client Port - Default: 9091"></input>
+			<button type="button" id="connect" class="bb-button recommend" onclick="redirectTransmission();">Connect</button>
+		</form>
+	</article>
+</section>
+</html>
